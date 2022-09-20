@@ -8,4 +8,10 @@ import { Component, Input } from '@angular/core';
 export class AppComponent {
   userName = 'Pedro';
   title = 'angular-new';
+
+  userData = {
+    email: 'pedro@example.com',
+    role: 'admin'
+  }
+
 }

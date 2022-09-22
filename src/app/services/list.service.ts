@@ -14,3 +14,4 @@ export class ListService {
     return animals.filter((a) => animal.name !== a.name);
   }
 }
+ 
